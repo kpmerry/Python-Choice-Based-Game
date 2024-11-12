@@ -1,5 +1,3 @@
-import time     # Will use to break up multiple print statements.
-import random
 import scenes   # Scene functions.
 import char     # Character information.
 
