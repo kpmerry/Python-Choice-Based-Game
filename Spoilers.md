@@ -8,13 +8,31 @@ The game is set in the 1920s in a speakeasy.
 ### Characters
 There will be characters through the game. This will include more antagonistic characters who can cause damage to the player.
 - Player character -- new to town.
-- Murdered character -- rich regular just about to close a deal with the speakeasy owner.
+- Diego Deadman -- rich friend of Big Joe, just about to close a deal for the speakeasy.
 - Big Joe -- the owner of the speakeasy where we find out the murder has occurred during a big event.
 - Lisa Larson -- the main entertainer working at the speakeasy, bit of a diva.
 - Clint Carding -- a regular at the speakeasy known for getting rowdy after too many drinks.
 - Milo McLeary -- a rival club owner with suspected ties to crime groups, suspciously absent from party.
 - Reese Riesling -- prospective investor for the speakeasy who would go far to acquire it.
-- Fletcher Finnegan -- strange bodyguard for the investor who is a man of few words.
+- Fletcher Finnegan -- bodyguard for the investor, is a man of few words.
+
+#### Player
+The player character is an up-and-coming author that's new to town and has been invited by Big Joe himself. Characters do not know the player well at all but Big Joe is a fan of the player's work.
+#### Diego Deadman
+Diego was a beloved friend of Big Joe and was about to go into business with him. He was killed accidentally by the killer. 
+#### Big Joe Profile
+Owns the speakeasy. He is a good friend of Diego Deadman and was about to close a deal with him. Big Joe is stealing from Lisa Larson because she has been taking tips from customers on the downlow. 
+#### Lisa Larson Profile
+Lisa Larson is a femme fatale. A performer at the speakeasy, she had good wits about her but dreams of financial security. She takes money from customers on the side, money that unbeknownst to her Big Joe has been helping himself to. She encourages the interests of the bigshot investor but is more interested in his stoic bodyguard. She receives love letters from the investor but sneaks the bodyguard into her dressing room after hours.
+#### Clint Carding
+A regular at the speakeasy but has a soured reputation for being a rowdy drunk. Despite his harmless appearance, he is privvy to the goingson of the speakeasy and knows more than he lets on.
+#### Milo McLeary
+The owner of a rival club and openly hates Big Joe. He's suspected of being tied to crime behind the scenes and doesn't take kindly to new people. He is suspiciously absent from the birthday bash.
+#### Reese Riesling
+A prospective investor of the speakeasy who has a thing for Lisa Larson. In his love letters, he details his dream of acquiring the speakeasy and watch her perform every night for him. He pesters Big Joe to go into business with him but Big Joe is wary of him.
+#### Fletcher Finnegan
+A stoic bodyguard for Reese. Rarely speaks but does like Lisa back. Is harbouring a secret identity as an undercover officer and knows about Big Joe stealing from Lisa. He is trying to acquire info about the crime links to clubs.
+
 ### General Plot
 All the characters have gathered for a birthday event. The celebrations are disrupted as we find out - there's been a murder! 
 
@@ -35,6 +53,6 @@ There will be a suspicious character that is strangely absent from the speakeasy
 ### 5. Sneak into Big Joe's office
 Players will have the chance to inspect the office in the speakeasy. If they check the desk drawer, this will contain Big Joe's phone book with access to information about some of the characters. May add a code/key to access this. 
 ### 6. Drink with Rowdy Regular
-Player may wish to try and get the rowdy regular drunk to spill information. A wrong choice will end in an altercation with the regular. This may cost the player health. A correct choice will get the regular to mention a clue, such as information about the failed deal.
+Player may wish to try and get the rowdy regular drunk to spill information. A wrong choice will end in an altercation with the regular. This may cost the player health. A correct choice will get the regular to mention a clue, such as information about the failed deal or Lisa's scheme.
 ### 7. Sneak into the speakeasy dressing rooms
 Players may sneak into the speakeasy dressing rooms after a key bit of information has been revealed. This will reveal love letters on the main entertainer's dressing table between her and the investor, who has taken a liking to her and wishes to acquire the speakeasy. However, as you leave, you see the stoic bodyguard enter her dressing room. Drama!
