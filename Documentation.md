@@ -23,7 +23,7 @@ Current ideas to include in the game are:
     - [ ] Detail the characters
     - [ ] Detail plot points
 - [ ] Finish scenes.py
-    - [ ] 1. Game intro
+    - [x] 1. Game intro
     - [ ] 2. Setting scene
     - [ ] 3. Crime scene investigation
 ## Future Application
