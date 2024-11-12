@@ -17,7 +17,7 @@ There will be characters through the game. This will include more antagonistic c
 - Milo McLeary -- a rival club owner with suspected ties to crime groups, suspciously absent from party.
 - Reese Riesling -- prospective investor for the speakeasy who would go far to acquire it.
 - Fletcher Finnegan -- bodyguard for the investor, is a man of few words.
-
+### Profiles
 #### Player
 The player character is an up-and-coming author that's new to town and has been invited by Big Joe himself. Characters do not know the player well at all but Big Joe is a fan of the player's work.
 #### Diego Deadman
@@ -34,7 +34,6 @@ The owner of a rival club and openly hates Big Joe. He's suspected of being tied
 A prospective investor of the speakeasy who has a thing for Lisa Larson. In his love letters, he details his dream of acquiring the speakeasy and watch her perform every night for him. He pesters Big Joe to go into business with him but Big Joe is wary of him.
 #### Fletcher Finnegan
 A stoic bodyguard for Reese. Rarely speaks but does like Lisa back. Is harbouring a secret identity as an undercover officer and knows about Big Joe stealing from Lisa. He is trying to acquire info about the crime links to clubs.
-
 ### General Plot
 All the characters have gathered for a birthday event. The celebrations are disrupted as we find out - there's been a murder! 
 
