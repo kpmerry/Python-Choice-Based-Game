@@ -1,4 +1,5 @@
-import time
+import time     # Will use to break up multiple print statements.
+import random
 
 class Person:
     # Set attributes.
@@ -25,6 +26,14 @@ def game_intro():
     return player
 
 def scene1():
+    print("The year is 1924.")
+    print("You have been invited to the party of the year.")
     return
 
+# Gameplay in the following section.
+
+# Introduction to game and set player.
 player = game_intro()
+
+# Scene 1 with setting.
+scene1()
