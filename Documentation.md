@@ -16,5 +16,15 @@ Current ideas to include in the game are:
 - a weapons class to defend the player against the antagonist
 - player stats and objects that increase stats to facilitate more in-depth gameplay (i.e. having a magnifying glass increases perception and allows player to spot clues before moving on)
 - a performance metric - timer, scene change count, in-game days/hours/minutes
+## Roadmap
+- [ ] Add characters to char.py
+- [ ] Finish Spoilers.md
+    - [ ] Decide on setting
+    - [ ] Detail the characters
+    - [ ] Detail plot points
+- [ ] Finish scenes.py
+    - [ ] 1. Game intro
+    - [ ] 2. Setting scene
+    - [ ] 3. Crime scene investigation
 ## Future Application
 This game could be used in the future to create a Web-based game, or used with other languages to create a game with graphics and a more interactive interface. 
