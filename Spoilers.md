@@ -5,6 +5,8 @@ This file will contain world-building notes and detailed account of possible gam
 This section will detail the ideas for the setting, characters and plot of the game.
 ### Setting
 The game is set in the 1920s in a speakeasy. 
+### Feature
+Players can collect clues and objects. As of yet there will be no inventory limits.
 ### Characters
 There will be characters through the game. This will include more antagonistic characters who can cause damage to the player.
 - Player character -- new to town.
