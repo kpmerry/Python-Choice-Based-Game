@@ -26,3 +26,10 @@ def scene1():
     print("You have been invited to the party of the year.")
     
     return
+
+def scene2():
+
+    #Scene setting.
+    print("You approach the scene.")
+
+    return
