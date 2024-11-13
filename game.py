@@ -11,6 +11,7 @@ class Player(char.Character):
     def __str__(self):
         return (f"{self.name}: {self.health}hp")
     
+    # Function to assign a Player object with input information. 
     def assign_player(info):
         return Player(info[0],info[1])
 

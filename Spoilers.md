@@ -4,9 +4,10 @@ This file will contain world-building notes and detailed account of possible gam
 ## World-Building
 This section will detail the ideas for the setting, characters and plot of the game.
 ### Setting
-The game is set in the 1920s in a speakeasy. 
+The game is set in the 1920s in a speakeasy. The player will have options to change the scene to other locations and to visit characters they suspect.
 ### Feature
-Players can collect clues and objects. As of yet there will be no inventory limits.
+Future Features:
+- Players can collect clues and objects. As of yet there will be no inventory limits.
 ### Characters
 There will be characters through the game. This will include more antagonistic characters who can cause damage to the player.
 - Player character -- famous author, new to town. Invited to the party while working on a new book.
@@ -39,7 +40,7 @@ All the characters have gathered for a birthday event. The celebrations are disr
 
 ## Gameplay Walkthrough
 This section will cover the scenes and choices made by a player.
-**Functionality to add - game remembers what scenes a player has already completed.**
+**Future functionality to add - game remembers what scenes a player has already completed.**
 ### 0. Game Intro
 All players will encounter this initial scene.
 Create player object and ask for a name. Introduce the game briefly. Describes what the player will experience and what the objective of the game is. 
