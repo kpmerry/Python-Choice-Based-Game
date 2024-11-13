@@ -2,7 +2,8 @@ import scenes   # Scene functions.
 import char     # Character information.
 
 class Player(char.Character):
-    
+    def __init__(self):
+        
     # Set string representation.
     def __str__(self):
         return (f"{self.name}: {self.health}hp")
