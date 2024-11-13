@@ -2,8 +2,11 @@ import scenes   # Scene functions.
 import char     # Character information.
 
 class Player(char.Character):
-    def __init__(self):
-        
+
+    def __init__(self, name, health):
+        super().__init__(name)
+        self.health = 50
+    
     # Set string representation.
     def __str__(self):
         return (f"{self.name}: {self.health}hp")
@@ -19,3 +22,4 @@ player = Player.assign_player(player_info)
 
 # Scene 1 with setting.
 scenes.scene1()
+scenes.scene2()
