@@ -5,8 +5,20 @@ This game will be written in Python, making use of object-oriented programming. 
 ## Author
 @kpmerry on GitHub
 ## Installation
-This game will be compatible with Python and can be downloaded from this repository.
+This game will be compatible with Python.
+1. First clone the repository.
+2. There are no dependencies to install.
+## Documentation
+A more detailed documentation is available: `Documentation.md`. There is also `Spoilers.md` avaiable for details on the game design and story.
+## Contributing
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes.
+4. Push your branch: `git push origin feature-name`.
+5. Create a pull request.
 ## License
+This project is licensed under the [MIT License](LICENSE).
+
 MIT License
 
 Copyright (c) 2024 @kpmerry on GitHub
