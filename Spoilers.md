@@ -9,12 +9,12 @@ The game is set in the 1920s in a speakeasy.
 Players can collect clues and objects. As of yet there will be no inventory limits.
 ### Characters
 There will be characters through the game. This will include more antagonistic characters who can cause damage to the player.
-- Player character -- new to town.
+- Player character -- famous author, new to town. Invited to the party while working on a new book.
 - Diego Deadman -- rich friend of Big Joe, just about to close a deal for the speakeasy.
 - Big Joe -- the owner of the speakeasy where we find out the murder has occurred during a big event.
 - Lisa Larson -- the main entertainer working at the speakeasy, bit of a diva.
 - Clint Carding -- a regular at the speakeasy known for getting rowdy after too many drinks.
-- Milo McLeary -- a rival club owner with suspected ties to crime groups, suspciously absent from party.
+- Missy McLeary -- a rival club owner with suspected ties to crime groups, suspciously absent from party.
 - Reese Riesling -- prospective investor for the speakeasy who would go far to acquire it.
 - Fletcher Finnegan -- bodyguard for the investor, is a man of few words.
 ### Profiles
