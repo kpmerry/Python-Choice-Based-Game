@@ -25,15 +25,15 @@ Diego was a beloved friend of Big Joe and was about to go into business with him
 #### Big Joe Profile
 Owns the speakeasy. He is a good friend of Diego Deadman and was about to close a deal with him. Big Joe is stealing from Lisa Larson because she has been taking tips from customers on the downlow. 
 #### Lisa Larson Profile
-Lisa Larson is a femme fatale. A performer at the speakeasy, she had good wits about her but dreams of financial security. She takes money from customers on the side, money that unbeknownst to her Big Joe has been helping himself to. She encourages the interests of the bigshot investor but is more interested in his stoic bodyguard. She receives love letters from the investor but sneaks the bodyguard into her dressing room after hours.
+A performer at the speakeasy, she had good wits about her but dreams of financial security. She takes money from customers on the side, money that unbeknownst to her, Big Joe has been helping himself to. She encourages the interests of the bigshot investor but is secretly more interested in the stoic bodyguard of the club's rival. She receives love letters from the investor but sneaks the bodyguard into her dressing room after hours.
 #### Clint Carding
 A regular at the speakeasy but has a soured reputation for being a rowdy drunk. Despite his harmless appearance, he is privvy to the goingson of the speakeasy and knows more than he lets on.
-#### Milo McLeary
-The owner of a rival club and openly hates Big Joe. He's suspected of being tied to crime behind the scenes and doesn't take kindly to new people. He is suspiciously absent from the birthday bash.
+#### Missy McLeary
+The owner of a rival club and openly hates Big Joe. She's suspected of being tied to crime behind the scenes and doesn't take kindly to new people. She is suspiciously absent from the birthday bash.
+#### Fletcher Finnegan
+A stoic bodyguard for Missy. Rarely speaks but does like Lisa back. Is harbouring a secret identity as an undercover officer and knows about Big Joe stealing from Lisa. He is trying to acquire info about the crime links to clubs.
 #### Reese Riesling
 A prospective investor of the speakeasy who has a thing for Lisa Larson. In his love letters, he details his dream of acquiring the speakeasy and watch her perform every night for him. He pesters Big Joe to go into business with him but Big Joe is wary of him.
-#### Fletcher Finnegan
-A stoic bodyguard for Reese. Rarely speaks but does like Lisa back. Is harbouring a secret identity as an undercover officer and knows about Big Joe stealing from Lisa. He is trying to acquire info about the crime links to clubs.
 ### General Plot
 All the characters have gathered for a birthday event. The celebrations are disrupted as we find out - there's been a murder! 
 
