@@ -1,13 +1,11 @@
-# Module for Characters
+# Module for Characters.
 
 class Char:
 
     def __init__(self, name):
         self.name = name
 
-    def speak(self, dialogue = str):
-        return print(f"{self.name}: '{dialogue}'")
-
+# Assign Char objects.
 c0 = Char("Diego Deadman")
 c1 = Char("Big Joe")
 c2 = Char("Lisa Larson")

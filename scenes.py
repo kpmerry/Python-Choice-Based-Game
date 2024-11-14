@@ -2,7 +2,6 @@
 
 import time
 import char
-import game
 
 def input_choice(choices: tuple[str]):
     return None
@@ -12,6 +11,9 @@ def t_print(text: str):
     print(text)
     time.sleep(speed)
     return
+
+def speak(char, dialogue = str):
+    return print(f"{char.name}: '{dialogue}'")
 
 def game_intro():
     """Start game introuction and gather player data."""
@@ -33,14 +35,14 @@ def game_intro():
     # Return player data as an output.
     return player
 
-def scene1():
+def scene1(p_name):
     """Start opening scene."""
 
     # Scene setting.
     t_print("The year is 1924.")
     t_print("You have been invited to the party of the year.")
     t_print("A red-faced man in a bowler hat approaches.")
-    char.Char.speak(char.c1, f"Hi {game.player.name}, I'm glad you could make it!")
+    speak(char.c1, f"Hi {p_name}, I'm glad you could make it!")
     
     return
 
