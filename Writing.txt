@@ -1,0 +1,37 @@
+[Game Intro]
+Welcome to {game_name}!
+This is a game of choice.
+You will be prompted when a choice needs to be made.
+What is your name, Player?
+Well, {name}, we hope you can solve the mystery!
+
+[Scene 1]
+The year is 1924.
+You have been invited to the party of the year.
+You are stood on the street at the address.
+A red-faced man in a bowler hat approaches.
+Big Joe: Hi Player, I'm glad you could make it!
+He leads you to a door around the side.
+Big Joe: Welcome to Big Joe's.
+The door opens to reveal a glamourous club. 
+There are dancing ladies and long counters with thousands of bottles.
+Big Joe: For a famous author like yourself, it's on the house!
+Lisa Larson: Here, take this drink on the house.
+Lisa Larson: Joe's feeling very generous tonight! Might be that deal with Diego.
+Lisa Larson: I'm one of Big Joe's best, come watch me sing some time.
+A man stumbles into you and slurs incoherently.
+He slips into the crowd before you can confront him.
+Lisa Larson: That's Clint. Don't mind him, just stay out of his way.
+Lisa Larson: Wouldn't want him giving you trouble, now.
+...
+Suddenly the music cuts out.
+Big Joe: I've just received a message.
+Everyone is silent, confused and anxious.
+Big Joe: Diego is dead.
+
+[Scene 2]
+You approach the scene.
+The cold night air whips around you.
+Fletcher: This here is the spot.
+You have approached an alley way.
+It's hard to make out the scene in the dark.

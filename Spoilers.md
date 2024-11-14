@@ -32,7 +32,7 @@ A regular at the speakeasy but has a soured reputation for being a rowdy drunk. 
 #### Missy McLeary
 The owner of a rival club and openly hates Big Joe. She's suspected of being tied to crime behind the scenes and doesn't take kindly to new people. She is suspiciously absent from the birthday bash.
 #### Fletcher Finnegan
-A stoic bodyguard for Missy. Rarely speaks but does like Lisa back. Is harbouring a secret identity as an undercover officer and knows about Big Joe stealing from Lisa. He is trying to acquire info about the crime links to clubs.
+A stoic bodyguard for Missy. Rarely speaks and likes Lisa back. Is harbouring a secret identity as an undercover officer and knows about Big Joe stealing from Lisa. He is trying to acquire info about the crime links to clubs. Is at the party while off work.
 #### Reese Riesling
 A prospective investor of the speakeasy who has a thing for Lisa Larson. In his love letters, he details his dream of acquiring the speakeasy and watch her perform every night for him. He pesters Big Joe to go into business with him but Big Joe is wary of him.
 ### General Plot
