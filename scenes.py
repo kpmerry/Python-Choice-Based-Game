@@ -1,32 +1,48 @@
 # Module for scene functions.
-
 import time
-import char
+import char     # Imports character info.
 
 def t_print(text: list[str]):
+    """Print list of game dialogue strings with a delay."""
+
     speed = 0.8
     time.sleep(speed)
     for s in text:
         print(s)
         time.sleep(speed)
+    
     return
 
 def input_choice(op1, op2, op3):
+    """Returns a valid choice from 3 options."""
+
     t_print([op1, op2, op3])
     choice = input("Choose an option: (1/2/3)")
-    if choice != ("1" or "2" or "3"):
-        print("Error")
-        input_choices(op1, op2, op3)
+
+    # Check for valid input reponse.
+    valid_choices = ["1", "2", "3"]
+
+    if choice not in valid_choices:
+        # If invalid input, reprompt and recurse.
+        print("Enter a valid reponse.")
+        return input_choice(op1, op2, op3)
+
+    # If input passes check, return it.
     return choice
 
 def speak(char, dialogue = str):
+    """Prints character name and dialogue."""
     return print(f"{char.name}: '{dialogue}'")
 
 def choice1():
+    """Function for choice 1."""
+    # Prepare player for Choice 1.
     print("Time to make your first choice!")
+    # Trigger choice based on options.
     choice1 = input_choice("1. Who are you?", 
-                        "2. No, I don't drink. Have it yourself.", 
+                        "2. No, I don't want a drink.", 
                         "3. Thanks a lot! Can I have another?")
+    # Generate dialogue based on choice.
     if choice1 == "1":
         speak(char.c2, "I'm one of Big Joe's best, come watch me sing some time.")
     elif choice1 == "2":
@@ -35,10 +51,7 @@ def choice1():
     elif choice1 == "3":
         speak(char.c2,"Alright, then! Luckily Joe's feeling very generous tonight!")
         speak(char.c2, "Might be that deal with Diego.")
-    else:
-        print("You did not input a correct choice.")
-        return choice1()
-    return 
+    return
 
 def game_intro():
     """Start game introuction and gather player data."""
@@ -78,7 +91,8 @@ def scene1(plyr_name):
     choice1()
     t_print(["A man stumbles into you and slurs incoherently.",
             "He slips into the crowd before you can confront him."])
-
+    speak(char.c2, "That's Clint. Don't mind him, just stay out of his way.")
+    speak(char.c2, "Wouldn't want him giving you trouble, now.")
     return
 
 def scene2():
