@@ -31,7 +31,12 @@ Thanks a lot! Can I have another?
 A man stumbles into you and slurs incoherently.
 He slips into the crowd before you can confront him.
 Lisa Larson: That's Clint. Don't mind him, just stay out of his way.
-Lisa Larson: Wouldn't want him giving you trouble, now.
+Fletcher Finnegan: He's harmless. Just can't handle the drink.
+Lisa Larson: Fletch! I thought you'd be working tonight.
+Fletcher nods his head in your direction. Missy grabs onto his arm.
+Lisa Larson: Fletch works with Missy McLeary. Big Joe isn't a fan.
+Fletcher: Mhm.
+Lisa Larson: Strange that Missy didn't show up. She likes to scout the competition.
 ...
 Suddenly the music cuts out.
 Big Joe: I've just received a message.

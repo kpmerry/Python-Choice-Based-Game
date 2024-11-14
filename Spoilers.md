@@ -5,7 +5,7 @@ This file will contain world-building notes and detailed account of possible gam
 This section will detail the ideas for the setting, characters and plot of the game.
 ### Setting
 The game is set in the 1920s in a speakeasy. The player will have options to change the scene to other locations and to visit characters they suspect.
-### Feature
+### Features
 Future Features:
 - Players can collect clues and objects. As of yet there will be no inventory limits.
 ### Characters
@@ -45,7 +45,7 @@ This section will cover the scenes and choices made by a player.
 All players will encounter this initial scene.
 Create player object and ask for a name. Introduce the game briefly. Describes what the player will experience and what the objective of the game is. 
 ### 1. Scene setting
-Introduce the scene of the game. Remind the player of their goal to solve the murder but also assigns them their character. 
+Introduce the scene of the game. Introduce key characters to the player. Remind the player of their goal to solve the murder.
 **Idea for later implementation - give player choice of their character/objects.**
 Tells them if they have objects in their inventory and their uses. 
 ### 2. Murder scene
