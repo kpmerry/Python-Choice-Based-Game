@@ -14,6 +14,7 @@ def t_print(text: str):
     return
 
 def game_intro():
+    """Start game introuction and gather player data."""
 
     # Intro sequence.
     game_name = "Python Game"
@@ -33,16 +34,18 @@ def game_intro():
     return player
 
 def scene1():
+    """Start opening scene."""
 
     # Scene setting.
     t_print("The year is 1924.")
     t_print("You have been invited to the party of the year.")
-    char.Character.say_dialogue(char.c1, f"Hi {game.player.name}, I'm glad you could make it!")
+    t_print("A red-faced man in a bowler hat approaches.")
+    char.Char.speak(char.c1, f"Hi {game.player.name}, I'm glad you could make it!")
     
     return
 
 def scene2():
-    """Details a players visit to murder scene."""
+    """Details a player's visit to murder scene."""
 
     # Scene setting.
     # May need separate dialogue file for bulkier scenes.

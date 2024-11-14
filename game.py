@@ -1,7 +1,7 @@
 import scenes   # Scene functions.
 import char     # Character information.
 
-class Player(char.Character):
+class Player(char.Char):
 
     def __init__(self, name, health):
         super().__init__(name)
