@@ -14,11 +14,19 @@ Big Joe: Hi Player, I'm glad you could make it!
 He leads you to a door around the side.
 Big Joe: Welcome to Big Joe's.
 The door opens to reveal a glamourous club. 
-There are dancing ladies and long counters with thousands of bottles.
+There are dancing ladies and long counters with many glasses.
+The cigar smoke hangs thick in the air.
 Big Joe: For a famous author like yourself, it's on the house!
-Lisa Larson: Here, take this drink on the house.
-Lisa Larson: Joe's feeling very generous tonight! Might be that deal with Diego.
-Lisa Larson: I'm one of Big Joe's best, come watch me sing some time.
+Lisa Larson: Here, take this drink.
+    # CHOICE 1 #
+    Who are you?
+        Lisa Larson: I'm one of Big Joe's best, come watch me sing some time.
+    No, I don't drink. Have it yourself.
+        Lisa Larson: You might not get another chance at such a cheap night!
+        Lisa Larson: Joe's feeling very generous tonight! Might be that deal with Diego.
+    Thanks a lot! Can I have another?
+        Lisa Larson: Alright, then! Luckily Joe's feeling very generous tonight! 
+        Lisa Larson: Might be that deal with Diego.
 A man stumbles into you and slurs incoherently.
 He slips into the crowd before you can confront him.
 Lisa Larson: That's Clint. Don't mind him, just stay out of his way.
