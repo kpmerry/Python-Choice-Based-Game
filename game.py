@@ -25,4 +25,4 @@ player = Player.assign_player(player_info)
 scenes.scene1()
 
 # == For testing purposes ==
-scenes.scene2()
+#scenes.scene2()

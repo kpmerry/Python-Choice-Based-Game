@@ -2,9 +2,7 @@
 
 import time
 import char
-
-def dialogue(character, dialogue):
-    return None
+import game
 
 def input_choice(choices: tuple[str]):
     return None
@@ -39,6 +37,7 @@ def scene1():
     # Scene setting.
     t_print("The year is 1924.")
     t_print("You have been invited to the party of the year.")
+    char.Character.say_dialogue(char.c1, f"Hi {game.player.name}, I'm glad you could make it!")
     
     return
 
