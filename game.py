@@ -22,7 +22,7 @@ player_info = scenes.game_intro()
 player = Player.assign_player(player_info)
 
 # Scene 1 with setting.
-scenes.alt_scene1(player_info)
+scenes.scene1(player.name)
 
 # == For testing purposes ==
 #scenes.scene2()

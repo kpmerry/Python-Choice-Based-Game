@@ -1,14 +1,10 @@
 # Module for scene functions.
 import time
 import char     # Imports character info.
-import os
-
-def read_file():
-
-            print(line.strip())
+import os       # For finding file directories.
 
 # == TO ADD: some kind of scene change function ==
-# == FIX READABIITY: for scene game dialogue ==
+# == TO ADD: a choice text file to improve readability ==
 
 def t_print(text: list[str]):
     """Print list of game dialogue strings with a delay."""
@@ -79,19 +75,31 @@ def game_intro():
     # Return player data as an output.
     return player
 
-def alt_scene1(plyr_name = "Player"):
+def scene1(plyr_name="Player"):
+    """Runs Scene 1."""
+
     # Get the directory of the current script
     current_dir = os.path.dirname(__file__)
     # Construct the path to the text file
     file_path = os.path.join(current_dir, "Game Dialogue", "Scene1.txt")
+
+    # Print lines in Scene 1 text file.
     with open(file_path, "r") as fin:
         for line in fin:
+            # Leaves out lines.
             if line[0] == "#":
                 continue
+            # Indicates choice sequence.
             elif line[0] == "=":
                 choice1()
                 continue
+            # Recognise dialogue lines
+            # Recognise variables in dialogue lines
+            elif line:
+                pass
             t_print([line.strip()])
+    
+    # Dramatic pause.
     time.sleep(1)
     t_print(["Your Task: Find the murderer."])
     return
