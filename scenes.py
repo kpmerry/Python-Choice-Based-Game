@@ -74,42 +74,15 @@ def game_intro():
     # Return player data as an output.
     return player
 
-def scene1(plyr_name):
-    """Start opening scene."""
-
-    # Scene setting.
-    t_print(["The year is 1924.", 
-        "You have been invited to the party of the year.", 
-        "A red-faced man in a bowler hat approaches."])
-    speak(char.c1, f"Hi {plyr_name}, I'm glad you could make it!")
-    t_print(["He leads you to a door around the side."])
-    speak(char.c1, "Welcome to Big Joe's.")
-    t_print(["The door opens to reveal a glamourous club.", 
-        "There are dancing ladies and long counters with many glasses.",
-        "The cigar smoke hangs thick in the air."])
-    speak(char.c1, "For a famous author like yourself, it's on the house!")
-    speak(char.c2, "Here, take this drink.")
-
-    choice1()
-
-    t_print(["A man stumbles into you and slurs incoherently.",
-            "He slips into the crowd before you can confront him."])
-    speak(char.c2, "That's Clint. Don't mind him, just stay out of his way.")
-    speak(char.c6, "He's harmless. Just can't handle the drink.")
-    speak(char.c2, f"Fletch! I thought you'd be working tonight.")
-    t_print(["Fletcher nods his head in your direction. Missy grabs onto his arm."])
-    speak(char.c2, "Fletch works with Missy McLeary. Big Joe isn't a fan of her.")
-    speak(char.c6, "Mhm.")
-    speak(char.c2, "Strange that Missy didn't show up. She usually likes to scout the competition.")
-    
-    # More dialogue here
-    
-    t_print(["Suddenly the music cuts out.",
-            "Big Joe appears on stage with a strange expression."])
-    speak(char.c1, "I've just received a message.")
-    t_print(["Everyone is silent, confused and anxious."])
-    speak(char.c1, "Diego is dead. He's been murdered.")
-
+def alt_scene1(plyr_name = "Player"):
+    with open("Scene1.txt", "r") as fin:
+        for line in fin:
+            if line[0] == "#":
+                continue
+            elif line[0] == "=":
+                choice1()
+                continue
+            t_print([line.strip()])
     time.sleep(1)
     t_print(["Your Task: Find the murderer."])
     return
