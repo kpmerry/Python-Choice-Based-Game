@@ -1,11 +1,3 @@
-[Game Intro]
-Welcome to {game_name}!
-This is a game of choice.
-You will be prompted when a choice needs to be made.
-What is your name, Player?
-Well, {name}, we hope you can solve the mystery!
-
-[Scene 1]
 The year is 1924.
 You have been invited to the party of the year.
 You are stood on the street at the address.
@@ -42,10 +34,3 @@ Suddenly the music cuts out.
 Big Joe: I've just received a message.
 Everyone is silent, confused and anxious.
 Big Joe: Diego is dead.
-
-[Scene 2]
-You approach the scene.
-The cold night air whips around you.
-Fletcher: This here is the spot.
-You have approached an alley way.
-It's hard to make out the scene in the dark.

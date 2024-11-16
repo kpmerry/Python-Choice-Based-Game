@@ -1,0 +1,5 @@
+Welcome to {game_name}!
+This is a game of choice.
+You will be prompted when a choice needs to be made.
+What is your name, Player?
+Well, {name}, we hope you can solve the mystery!
