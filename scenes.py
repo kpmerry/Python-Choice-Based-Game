@@ -1,6 +1,11 @@
 # Module for scene functions.
 import time
 import char     # Imports character info.
+import os
+
+def read_file():
+
+            print(line.strip())
 
 # == TO ADD: some kind of scene change function ==
 # == FIX READABIITY: for scene game dialogue ==
@@ -75,7 +80,11 @@ def game_intro():
     return player
 
 def alt_scene1(plyr_name = "Player"):
-    with open("Scene1.txt", "r") as fin:
+    # Get the directory of the current script
+    current_dir = os.path.dirname(__file__)
+    # Construct the path to the text file
+    file_path = os.path.join(current_dir, "Game Dialogue", "Scene1.txt")
+    with open(file_path, "r") as fin:
         for line in fin:
             if line[0] == "#":
                 continue

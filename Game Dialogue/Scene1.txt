@@ -10,7 +10,7 @@ There are dancing ladies and long counters with many glasses.
 The cigar smoke hangs thick in the air.
 Big Joe: For a famous author like yourself, it's on the house!
 Lisa Larson: Here, take this drink.
-# CHOICE 1 #
+# CHOICE 1
 =
 # 1. Who are you?
 #    Lisa Larson: I'm one of Big Joe's best, come watch me sing some time.
@@ -20,7 +20,7 @@ Lisa Larson: Here, take this drink.
 # 3. Thanks a lot! Can I have another?
 #    Lisa Larson: Alright, then! Luckily Joe's feeling very generous tonight! 
 #    Lisa Larson: Might be that deal with Diego.
-# End of CHOICE 1 #
+# End of CHOICE 1
 A man stumbles into you and slurs incoherently.
 He slips into the crowd before you can confront him.
 Lisa Larson: That's Clint. Don't mind him, just stay out of his way.
