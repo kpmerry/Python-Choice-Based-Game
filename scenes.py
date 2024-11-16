@@ -27,6 +27,7 @@ def t_print(text: list[str]):
 def input_choice(op1, op2, op3):
     """Returns a valid choice from 3 options."""
 
+    # List options and create input variable.
     t_print([op1, op2, op3])
     choice = input("Choose an option: (1/2/3)")
 
@@ -48,11 +49,14 @@ def speak(char, dialogue = str):
 def extract_dialogue(line):
     # == TO ADD: recognise when Variables are called. ==
     index = line.index(":")
+    # Separate character name and dialogue.
     char_name = line[:index]
     dialogue = line[(index + 1):]
     try:
+        # Check if character name matches an object.
         speak(char.name_index[char_name], dialogue)
     except:
+        # If not, skip the line of dialogue.
         None
     return 
 
@@ -126,6 +130,7 @@ def scene2():
     # Print lines in Scene 1 text file.
     with open(file_path, "r") as fin:
         for line in fin:
+            # Check for conditions as specified by `Dialogue.md`.
             # Leaves out lines.
             if line[0] == "#":
                 continue
@@ -136,8 +141,8 @@ def scene2():
             # Indicates dialogue.
             elif line[0] == "$":
                 extract_dialogue(line)
+            # Print the lines of regular game dialogue.
             t_print([line.strip()])
-
     return
 
 def scene3():
