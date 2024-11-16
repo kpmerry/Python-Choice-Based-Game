@@ -5,6 +5,7 @@ import os       # For finding file directories.
 
 # == TO ADD: some kind of scene change function ==
 # == TO ADD: a choice text file to improve readability ==
+# == TO FINISH: recognising dialogue and variables function ==
 
 def get_filepath(filename):
     """Returns the filepath for Game Dialogue file."""
@@ -45,8 +46,7 @@ def speak(char, dialogue = str):
     return t_print([f"{char.name}: '{dialogue}'"])
 
 def extract_dialogue(line):
-    # Recognise Character names.
-    # Recognise when Variables are called. 
+    # == TO ADD: recognise when Variables are called. ==
     index = line.index(":")
     char_name = line[:index]
     dialogue = line[(index + 1):]
@@ -95,7 +95,7 @@ def game_intro():
     # Return player data as an output.
     return player
 
-def scene1(plyr_name="Player"):
+def scene1(plyr_name):
     """Runs Scene 1."""
 
     file_path = get_filepath("Scene1.txt")

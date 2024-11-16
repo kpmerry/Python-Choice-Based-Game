@@ -7,7 +7,7 @@ Kisholi Perera-Merry (GitHub @kpmerry)
 ## Installation
 This game will be compatible with Python.
 1. Clone the repository.
-2. There are no dependencies to install.
+2. There are no other dependencies to install.
 ## Documentation
 A more detailed documentation is available: `Documentation.md`. There is also `Spoilers.md` avaiable for details on the game design and story.
 ## Contributing

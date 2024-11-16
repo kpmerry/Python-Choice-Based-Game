@@ -21,12 +21,12 @@ Current ideas to include in the game are:
 - [ ] Consider Locations class/module
     - [ ] Could include location description and available objects
 - [ ] Finish Spoilers.md
-    - [ ] Decide on setting
-    - [ ] Detail the characters
+    - [x] Decide on setting
+    - [x] Detail the characters
     - [ ] Detail plot points
 - [ ] Finish scenes.py
     - [x] 1. Game intro
-    - [ ] 2. Setting scene
+    - [x] 2. Setting scene
     - [ ] 3. Crime scene investigation
 ## Future Application
 This game could be used in the future to create a Web-based game, or used with other languages to create a game with a more interactive interface. 
