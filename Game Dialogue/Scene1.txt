@@ -2,14 +2,14 @@ The year is 1924.
 You have been invited to the party of the year.
 You are stood on the street at the address.
 A red-faced man in a bowler hat approaches.
-Big Joe: Hi Player, I'm glad you could make it!
+$Big Joe: Hi Player, I'm glad you could make it!
 He leads you to a door around the side.
-Big Joe: Welcome to Big Joe's.
+$Big Joe: Welcome to Big Joe's.
 The door opens to reveal a glamourous club. 
 There are dancing ladies and long counters with many glasses.
 The cigar smoke hangs thick in the air.
-Big Joe: For a famous author like yourself, it's on the house!
-Lisa Larson: Here, take this drink.
+$Big Joe: For a famous author like yourself, it's on the house!
+$Lisa Larson: Here, take this drink.
 # CHOICE 1
 =
 # 1. Who are you?
@@ -22,16 +22,17 @@ Lisa Larson: Here, take this drink.
 #    Lisa Larson: Might be that deal with Diego.
 # End of CHOICE 1
 A man stumbles into you and slurs incoherently.
+$Clint Carding: Mmm mm hmn mmmmn hmm mn...
 He slips into the crowd before you can confront him.
-Lisa Larson: That's Clint. Don't mind him, just stay out of his way.
-Fletcher Finnegan: He's harmless. Just can't handle the drink.
-Lisa Larson: Fletch! I thought you'd be working tonight.
+$Lisa Larson: That's Clint. Don't mind him, just stay out of his way.
+$Fletcher Finnegan: He's harmless. Just can't handle the drink.
+$Lisa Larson: Fletch! I thought you'd be working tonight.
 Fletcher nods his head in your direction. Missy grabs onto his arm.
-Lisa Larson: Fletch works with Missy McLeary. Big Joe isn't a fan.
-Fletcher: Mhm.
-Lisa Larson: Strange that Missy didn't show up. She likes to scout the competition.
+$Lisa Larson: Fletch works with Missy McLeary. Big Joe isn't a fan.
+$Fletcher Finnegan: Mhm.
+$Lisa Larson: Strange that Missy didn't show up. She likes to scout the competition.
 ...
 Suddenly the music cuts out.
-Big Joe: I've just received a message.
+$Big Joe: I've just received a message.
 Everyone is silent, confused and anxious.
-Big Joe: Diego is dead.
+$Big Joe: Diego is dead.

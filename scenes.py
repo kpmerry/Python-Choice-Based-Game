@@ -6,6 +6,14 @@ import os       # For finding file directories.
 # == TO ADD: some kind of scene change function ==
 # == TO ADD: a choice text file to improve readability ==
 
+def get_filepath(filename):
+    """Returns the filepath for Game Dialogue file."""
+    # Get the directory of the current script
+    current_dir = os.path.dirname(__file__)
+    # Construct the path to the text file
+    file_path = os.path.join(current_dir, "Game Dialogue", filename)
+    return file_path
+
 def t_print(text: list[str]):
     """Print list of game dialogue strings with a delay."""
     # Set game dialogue pace.
@@ -35,6 +43,18 @@ def input_choice(op1, op2, op3):
 def speak(char, dialogue = str):
     """Prints character name and dialogue."""
     return t_print([f"{char.name}: '{dialogue}'"])
+
+def extract_dialogue(line):
+    # Recognise Character names.
+    # Recognise when Variables are called. 
+    index = line.index(":")
+    char_name = line[:index]
+    dialogue = line[(index + 1):]
+    try:
+        speak(char.name_index[char_name], dialogue)
+    except:
+        None
+    return 
 
 def choice1():
     """Function for choice 1."""
@@ -78,11 +98,7 @@ def game_intro():
 def scene1(plyr_name="Player"):
     """Runs Scene 1."""
 
-    # Get the directory of the current script
-    current_dir = os.path.dirname(__file__)
-    # Construct the path to the text file
-    file_path = os.path.join(current_dir, "Game Dialogue", "Scene1.txt")
-
+    file_path = get_filepath("Scene1.txt")
     # Print lines in Scene 1 text file.
     with open(file_path, "r") as fin:
         for line in fin:
@@ -93,10 +109,10 @@ def scene1(plyr_name="Player"):
             elif line[0] == "=":
                 choice1()
                 continue
-            # Recognise dialogue lines
-            # Recognise variables in dialogue lines
-            elif line:
-                pass
+            # Indicates dialogue.
+            elif line[0] == "$":
+                extract_dialogue((line[1:]).strip())
+                continue
             t_print([line.strip()])
     
     # Dramatic pause.
@@ -106,8 +122,21 @@ def scene1(plyr_name="Player"):
 
 def scene2():
     """Details a player's visit to murder scene."""
-    # Scene setting.
-    t_print(["You approach the scene.", "The cold night air whips around you."])
+    file_path = get_filepath("Scene2.txt")
+    # Print lines in Scene 1 text file.
+    with open(file_path, "r") as fin:
+        for line in fin:
+            # Leaves out lines.
+            if line[0] == "#":
+                continue
+            # Indicates choice sequence.
+            elif line[0] == "=":
+                choice1()
+                continue
+            # Indicates dialogue.
+            elif line[0] == "$":
+                extract_dialogue(line)
+            t_print([line.strip()])
 
     return
 

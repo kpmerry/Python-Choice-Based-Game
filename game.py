@@ -1,5 +1,5 @@
-import scenes   # Scene functions.
-import char     # Character information.
+import scenes # Scene functions.
+import char # Character information.
 
 class Player(char.Char):
 
