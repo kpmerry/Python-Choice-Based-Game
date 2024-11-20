@@ -1,7 +1,8 @@
 # Python-Choice-Based-Game
 Creating a mystery choice based game in Python.
 ## Overview
-This game will be written in Python, making use of object-oriented programming. It will be a choice-based game with scenes for the player to navigate based on the choices they input earlier in the game. This project is currently in the development stage. 
+This game will be written in Python, making use of object-oriented programming. It will be a choice-based game with scenes for the player to navigate based on the choices they input earlier in the game. 
+This project is currently in the development stage. 
 ## Author
 Kisholi Perera-Merry (GitHub @kpmerry)
 ## Installation
